@@ -7,7 +7,7 @@ class Header extends React.Component {
         <a href="index.html" className="logo"><img className="img-fluid able-logo" src="assets/images/logo.png" alt="Theme-logo"/></a>
         <nav className="navbar navbar-static-top">
             {/* Sidebar toggle button*/}
-            <span className="sidebar-toggle"></span>
+            <span className="sidebar-toggle" href="#!"></span>
             {/* Navbar Right Menu*/}
             <div className="navbar-custom-menu f-right">
                 

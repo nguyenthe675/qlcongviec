@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 //components
 import Header from './components/Header';
+import SideNav from './components/SideNav';
+import BaseContent from './components/BaseContent';
 //
 import './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -16,7 +18,9 @@ class App extends Component {
         {/* Navbar */}
         <Header></Header>
         {/* Side-Nav */}
+        <SideNav></SideNav>
         {/* Content */}
+        <BaseContent></BaseContent>
         {/* Navbar */}
       </div>
     );
