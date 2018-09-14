@@ -1,10 +1,13 @@
 import React from 'react';
-
+const rem2 = {
+    fontSize: '2rem',
+  };
+  
 class Header extends React.Component {
   render() {
     return (
         <header className="main-header-top hidden-print">
-        <a href="index.html" className="logo"><img className="img-fluid able-logo" src="assets/images/logo.png" alt="Theme-logo"/></a>
+        <a href="index.html" className="logo" style={rem2}>G8-EPS</a>
         <nav className="navbar navbar-static-top">
             {/* Sidebar toggle button*/}
             <span className="sidebar-toggle" href="#!"></span>
@@ -77,7 +80,7 @@ class Header extends React.Component {
                         <a href="#!" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"
                             className="dropdown-toggle drop icon-circle drop-image">
                             <span><img className="img-circle " src="assets/images/avatar-1.png" width="40" alt="Ảnh đại diện"/></span>
-                            <span>John <b>Doe</b> <i className=" icofont icofont-simple-down"></i></span>
+                            <span>Thế <b>NV</b> <i className=" icofont icofont-simple-down"></i></span>
 
                         </a>
                         <ul className="dropdown-menu settings-menu">
@@ -95,55 +98,7 @@ class Header extends React.Component {
                 </ul>
 
                 {/* search */}
-                <div id="morphsearch" className="morphsearch">
-                    <form className="morphsearch-form">
-
-                        <input className="morphsearch-input" type="search" placeholder="Search..." />
-
-                        <button className="morphsearch-submit" type="submit">Search</button>
-
-                    </form>
-                    <div className="morphsearch-content">
-                        <div className="dummy-column">
-                            <h2>People</h2>
-                            <a className="dummy-media-object" href="#!">
-                                <img className="round" src="http://0.gravatar.com/avatar/81b58502541f9445253f30497e53c280?s=50&d=identicon&r=G"
-                                    alt="Sara Soueidan" />
-                                <h3>Sara Soueidan</h3>
-                            </a>
-
-                            <a className="dummy-media-object" href="#!">
-                                <img className="round" src="http://1.gravatar.com/avatar/9bc7250110c667cd35c0826059b81b75?s=50&d=identicon&r=G"
-                                    alt="Shaun Dona" />
-                                <h3>Shaun Dona</h3>
-                            </a>
-                        </div>
-                        <div className="dummy-column">
-                            <h2>Popular</h2>
-                            <a className="dummy-media-object" href="#!">
-                                <img src="assets/images/avatar-1.png" alt="PagePreloadingEffect" />
-                                <h3>Page Preloading Effect</h3>
-                            </a>
-
-                            <a className="dummy-media-object" href="#!">
-                                <img src="assets/images/avatar-1.png" alt="DraggableDualViewSlideshow" />
-                                <h3>Draggable Dual-View Slideshow</h3>
-                            </a>
-                        </div>
-                        <div className="dummy-column">
-                            <h2>Recent</h2>
-                            <a className="dummy-media-object" href="#!">
-                                <img src="assets/images/avatar-1.png" alt="TooltipStylesInspiration" />
-                                <h3>Tooltip Styles Inspiration</h3>
-                            </a>
-                            <a className="dummy-media-object" href="#!">
-                                <img src="assets/images/avatar-1.png" alt="NotificationStyles" />
-                                <h3>Notification Styles Inspiration</h3>
-                            </a>
-                        </div>
-                    </div>{/* /morphsearch-content */}
-                    <span className="morphsearch-close"><i className="icofont icofont-search-alt-1"></i></span>
-                </div>
+                
                 {/* search end */}
             </div>
         </nav>

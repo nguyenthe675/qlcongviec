@@ -39,7 +39,7 @@ $(window).on('load', function() {
         });
     };
 
-    notify('Chào mừng đến với ứng dụng ReactJS', 'inverse');
+    notify('Demo lấy dữ liệu tài sản qua API', 'inverse');
     $('.loader-bg').fadeOut('slow');
 
 });
@@ -126,11 +126,11 @@ $('[data-toggle="popover"]').popover({
 
 // wave effect js
 
-Waves.init();
-Waves.attach('.flat-buttons', ['waves-button']);
-Waves.attach('.float-buttons', ['waves-button', 'waves-float']);
-Waves.attach('.float-button-light', ['waves-button', 'waves-float', 'waves-light']);
-Waves.attach('.flat-buttons', ['waves-button', 'waves-float', 'waves-light', 'flat-buttons']);
+// Waves.init();
+// Waves.attach('.flat-buttons', ['waves-button']);
+// Waves.attach('.float-buttons', ['waves-button', 'waves-float']);
+// Waves.attach('.float-button-light', ['waves-button', 'waves-float', 'waves-light']);
+// Waves.attach('.flat-buttons', ['waves-button', 'waves-float', 'waves-light', 'flat-buttons']);
 
 // side button js code start
 $.pushMenu = {

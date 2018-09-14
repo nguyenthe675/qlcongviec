@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 //components
 import Header from './components/Header';
 import SideNav from './components/SideNav';
@@ -11,6 +12,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 
 library.add(faStroopwafel,fab,faCoffee,faAppleAlt)
 
+//axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 class App extends Component {
   render() {
     return (

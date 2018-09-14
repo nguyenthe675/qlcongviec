@@ -9,8 +9,8 @@ class SideNav extends React.Component {
                 <div className="user-panel">
                     <div className="f-left image"><img src="assets/images/avatar-1.png" alt="Ảnh đại diện" className="img-circle"/></div>
                     <div className="f-left info">
-                        <p>John Doe</p>
-                        <p className="designation">UX Designer <i className="icofont icofont-caret-down m-l-5"></i></p>
+                        <p>The NV</p>
+                        <p className="designation">Developer <i className="icofont icofont-caret-down m-l-5"></i></p>
                     </div>
                 </div>
                 {/* sidebar profile Menu*/}
@@ -42,150 +42,58 @@ class SideNav extends React.Component {
                     <li className="nav-level">Navigation</li>
                     <li className="active treeview">
                         <a className="waves-effect waves-dark" href="index.html">
-                            <i className="icon-speedometer"></i><span> Dashboard</span>
+                            <i className="icon-speedometer"></i><span> Danh sách tài sản đơn vị</span>
                         </a>
                     </li>
                     <li className="nav-level">Components</li>
                     <li className="treeview"><a className="waves-effect waves-dark" href="#!"><i className="icon-briefcase"></i><span>
-                                UI Elements</span><i className="icon-arrow-down"></i></a>
+                                Danh mục</span><i className="icon-arrow-down"></i></a>
                         <ul className="treeview-menu">
-                            <li><a className="waves-effect waves-dark" href="accordion.html"><i className="icon-arrow-right"></i>
-                                    Accordion</a></li>
+                            <li><a className="waves-effect waves-dark" ><i className="icon-arrow-right"></i>
+                                    Đơn vị</a></li>
                             <li><a className="waves-effect waves-dark" href="button.html"><i className="icon-arrow-right"></i>
-                                    Button</a></li>
-                            <li><a className="waves-effect waves-dark" href="label-badge.html"><i className="icon-arrow-right"></i>
-                                    Label Badge</a></li>
-                            <li><a className="waves-effect waves-dark" href="bootstrap-ui.html"><i className="icon-arrow-right"></i>
-                                    Grid system</a></li>
-                            <li><a className="waves-effect waves-dark" href="box-shadow.html"><i className="icon-arrow-right"></i>
-                                    Box Shadow</a></li>
-                            <li><a className="waves-effect waves-dark" href="color.html"><i className="icon-arrow-right"></i>
-                                    Color</a></li>
-                            <li><a className="waves-effect waves-dark" href="light-box.html"><i className="icon-arrow-right"></i>
-                                    Light Box</a></li>
-                            <li><a className="waves-effect waves-dark" href="notification.html"><i className="icon-arrow-right"></i>
-                                    Notification</a></li>
-                            <li><a className="waves-effect waves-dark" href="panels-wells.html"><i className="icon-arrow-right"></i>
-                                    Panels-Wells</a></li>
-                            <li><a className="waves-effect waves-dark" href="tabs.html"><i className="icon-arrow-right"></i>
-                                    Tabs</a></li>
-                            <li><a className="waves-effect waves-dark" href="tooltips.html"><i className="icon-arrow-right"></i>
-                                    Tooltips</a></li>
-                            <li><a className="waves-effect waves-dark" href="typography.html"><i className="icon-arrow-right"></i>
-                                    Typography</a></li>
+                                    Bộ phận sử dụng</a></li>
+                            
                         </ul>
                     </li>
 
                     <li className="treeview"><a className="waves-effect waves-dark" href="#!"><i className="icon-chart"></i><span>
-                                Charts &amp; Maps</span><span className="label label-success menu-caption">New</span><i
+                                Báo cáo &amp; Thống kê</span><span className="label label-success menu-caption">Mới</span><i
                                 className="icon-arrow-down"></i></a>
                         <ul className="treeview-menu">
                             <li><a className="waves-effect waves-dark" href="float-chart.html"><i className="icon-arrow-right"></i>
-                                    Float Charts</a></li>
+                                    Tổng hợp</a></li>
                             <li><a className="waves-effect waves-dark" href="morris-chart.html"><i className="icon-arrow-right"></i>
-                                    Morris Charts</a></li>
+                                    Công khai</a></li>
                         </ul>
                     </li>
 
                     <li className="treeview"><a className="waves-effect waves-dark" href="#!"><i className="icon-book-open"></i><span>
-                                Forms</span><i className="icon-arrow-down"></i></a>
+                                Nghiệp vụ tài sản</span><i className="icon-arrow-down"></i></a>
                         <ul className="treeview-menu">
-                            <li><a className="waves-effect waves-dark" href="form-elements-bootstrap.html"><i className="icon-arrow-right"></i>
-                                    Form Elements Bootstrap</a></li>
-                            <li><a className="waves-effect waves-dark" href="form-elements-materialize.html"><i className="icon-arrow-right"></i>
-                                    Form Elements Material</a></li>
-                            <li><a className="waves-effect waves-dark" href="form-elements-advance.html"><i className="icon-arrow-right"></i>
-                                    Form Elements Advance</a></li>
+                            <li><a className="waves-effect waves-dark" ><i className="icon-arrow-right"></i>
+                                    Tăng mới tài sản</a></li>
+                            <li><a className="waves-effect waves-dark"><i className="icon-arrow-right"></i>
+                                    Tăng, giảm nguyên giá</a></li>
+                            <li><a className="waves-effect waves-dark"><i className="icon-arrow-right"></i>
+                                    Thay đổi thông tin</a></li>
                         </ul>
                     </li>
 
                     <li className="treeview">
                         <a className="waves-effect waves-dark" href="basic-table.html">
-                            <i className="icon-list"></i><span> Table</span>
+                            <i className="icon-list"></i><span> Tra cứu</span>
                         </a>
                     </li>
 
 
                     <li className="nav-level">More</li>
 
-                    <li className="treeview"><a className="waves-effect waves-dark" href="#!"><i className="icon-docs"></i><span>Pages</span><i
+                    <li className="treeview"><a className="waves-effect waves-dark" href="#!"><i className="icon-docs"></i><span>Cấu hình</span><i
                                 className="icon-arrow-down"></i></a>
-                        <ul className="treeview-menu">
-                            <li className="treeview"><a href="#!"><i className="icon-arrow-right"></i><span> Authentication</span><i
-                                        className="icon-arrow-down"></i></a>
-                                <ul className="treeview-menu">
-                                    <li><a className="waves-effect waves-dark" href="register1.html" target="_blank"><i
-                                                className="icon-arrow-right"></i> Register 1</a></li>
-
-                                    <li><a className="waves-effect waves-dark" href="login1.html" target="_blank"><i className="icon-arrow-right"></i><span>
-                                                Login 1</span></a></li>
-                                    <li><a className="waves-effect waves-dark" href="forgot-password.html" target="_blank"><i
-                                                className="icon-arrow-right"></i><span> Forgot Password</span></a></li>
-                                    <li><a className="waves-effect waves-dark" href="profile.html"><i className="icon-arrow-right"></i>
-                                            Profile</a></li>
-                                </ul>
-                            </li>
-                            <li><a className="waves-effect waves-dark" href="lock-screen.html" target="_blank"><i className="icon-arrow-right"></i>
-                                    Lock Screen</a></li>
-                            <li><a className="waves-effect waves-dark" href="404.html" target="_blank"><i className="icon-arrow-right"></i>
-                                    Error 404</a></li>
-                            <li><a className="waves-effect waves-dark" href="sample-page.html"><i className="icon-arrow-right"></i>
-                                    Sample Page</a></li>
-                            <li><a className="waves-effect waves-dark" href="search-result.html"><i className="icon-arrow-right"></i>
-                                    Search Result</a></li>
-                        </ul>
+                        
                     </li>
 
-
-                    <li className="nav-level">Menu Level</li>
-
-                    <li className="treeview"><a className="waves-effect waves-dark" href="#!"><i className="icofont icofont-company"></i><span>Menu
-                                Level 1</span><i className="icon-arrow-down"></i></a>
-                        <ul className="treeview-menu">
-                            <li>
-                                <a className="waves-effect waves-dark" href="#!">
-                                    <i className="icon-arrow-right"></i>
-                                    Level Two
-                                </a>
-                            </li>
-                            <li className="treeview">
-                                <a className="waves-effect waves-dark" href="#!">
-                                    <i className="icon-arrow-right"></i>
-                                    <span>Level Two</span>
-                                    <i className="icon-arrow-down"></i>
-                                </a>
-                                <ul className="treeview-menu">
-                                    <li>
-                                        <a className="waves-effect waves-dark" href="#!">
-                                            <i className="icon-arrow-right"></i>
-                                            Level Three
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a className="waves-effect waves-dark" href="#!">
-                                            <i className="icon-arrow-right"></i>
-                                            <span>Level Three</span>
-                                            <i className="icon-arrow-down"></i>
-                                        </a>
-                                        <ul className="treeview-menu">
-                                            <li>
-                                                <a className="waves-effect waves-dark" href="#!">
-                                                    <i className="icon-arrow-right"></i>
-                                                    Level Four
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a className="waves-effect waves-dark" href="#!">
-                                                    <i className="icon-arrow-right"></i>
-                                                    Level Four
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
                 </ul>
             </section>
         </aside>
